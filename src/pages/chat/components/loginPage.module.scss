@@ -1,0 +1,43 @@
+.login-style{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 12px 3px rgba(77,77,77,0.68);
+    -moz-box-shadow: 0px 0px 12px 3px rgba(77,77,77,0.68);
+    box-shadow: 0px 0px 12px 3px rgba(77,77,77,0.68);
+    width: 70%;
+    height: 70vh;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        height: 25px;
+        width: 200px;
+        &:focus-within {
+            border-color: #009588
+        }
+    }
+    button {
+        height: 30px;
+        width: 60px;
+        border: 2px solid #009588;
+        border-radius: 3px;
+        background: transparent;
+        cursor: pointer;
+        color: #009588;
+        margin-left: 5px;
+        transition: all 0.2s;
+        font-size: 11px;
+        &:hover{
+            font-size: 14px;
+        }
+    }
+
+    fieldset {
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+        -moz-box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+        box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+
+    }
+}

@@ -1,0 +1,26 @@
+.menu {
+    border: 1px solid transparent;
+    border-radius: 1px;
+    width: 200px;
+    position: absolute;
+    right: 35px;
+    background: #f1f1f1;
+    -webkit-box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+    -moz-box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+    box-shadow: 0px 0px 12px -3px rgba(77,77,77,0.68);
+    div{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px 5px;
+        color: #969696;
+        cursor: ponter;
+        border-bottom: 1px solid rgba(224, 224, 224, 0.533);
+        &:last-child{
+            border-bottom: none
+        }
+        &:hover{
+            background: #d1d1d1;
+            cursor: pointer;
+        }
+    }
+}
