@@ -6,7 +6,7 @@ import LoginPage from './pages/chat/components/loginPage'
 
 function App() {
 
-  const [login, setLogin] = useState('a')
+  const [login, setLogin] = useState('')
 
   function handleValidate(value){
     setLogin(value)
